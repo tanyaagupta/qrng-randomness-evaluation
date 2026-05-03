@@ -1,0 +1,9 @@
+*.npy
+*.csv
+*.bin
+*.h5
+*.pt
+*.pth
+__pycache__/
+.env
+data/
