@@ -16,19 +16,19 @@ QRNG Data → Transformer Verification → Bias Injection → NIST Testing → I
 ---
 ## Repository Structure
 
-project/
-│
-├── notebooks/
-│   ├── 01_Data_Collection_Verification.ipynb
-│   ├── 02_Initial_Transformer_Analysis.ipynb
-│   ├── 03_Bias_Injection.ipynb
-│   ├── 04_NIST_Testing.ipynb
-│   ├── 05_Image_Conversion.ipynb
-│   └── 06_CNN_Model.ipynb
-│
-├── .gitignore
-├── README.md
-└── requirements.txt
+    qrng-randomness-evaluation/
+    │
+    ├── notebooks/
+    │   ├── 01_Data_Collection_Verification.ipynb
+    │   ├── 02_Initial_Transformer_Analysis.ipynb
+    │   ├── 03_Bias_Injection.ipynb
+    │   ├── 04_NIST_Testing.ipynb
+    │   ├── 05_Image_Conversion.ipynb
+    │   └── 06_CNN_Model.ipynb
+    │
+    ├── .gitignore
+    ├── README.md
+    └── requirements.txt
 
 > Run notebooks in order 01 → 06.
 
@@ -83,4 +83,5 @@ via the [LFDR QRNG API](https://lfdr.de/qrng_api/).
 ## Project Info
 
 **Institution**: Indira Gandhi Delhi Technical University for Women, Department of AI & Data Science
+
 **Team**: Ishita Paul · Pallika Dhingra · Saachi Bansal · Tanya Gupta
